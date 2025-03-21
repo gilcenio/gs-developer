@@ -27,9 +27,9 @@ export default function App() {
 
   return (
     <ControllerProvider>
-      <View style={{flex: 1}}>
-        <StatusBar style="dark" />
-        <Routes/>
+      <View style={{flex: 1, backgroundColor: 'red'}}>
+        {/* <StatusBar style="dark" />
+        <Routes/> */}
       </View>
     </ControllerProvider>
 
